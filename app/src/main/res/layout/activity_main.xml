@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:text="Great people"
+    android:textAppearance="?android:textAppearanceMedium"
+
+
+    android:fontFamily="serif-monospace"
+    android:textStyle="bold"
+   android:background="#111111"
+    android:textColor="@color/white"
+    android:textSize="40sp"
+    android:gravity="center"
+
+    />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#ff4000"
+            android:padding="3dp"
+
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/nelson"
+                android:layout_gravity="left"
+                />
+        <TextView
+            android:id="@+id/nelson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nelson Mandela"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/white"
+            android:fontFamily="serif-monospace"
+            android:textSize="50sp"
+            android:gravity="center"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+           android:background="#ff9f80"
+            android:padding="3dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/annahazare" />
+
+            <TextView
+                android:id="@+id/anna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceMedium"
+                   android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:text="Anna Hazare"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+         android:background="#3399ff"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ratanji"
+                android:layout_gravity="left"
+                />
+
+            <TextView
+                android:id="@+id/ratan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                  android:textColor="@color/white"
+                android:text="Ratan Tata"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="#ffff66"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/swamivivekananda"
+                android:layout_gravity="left"
+                />
+            <TextView
+                android:id="@+id/swami"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swami Vivekananda"
+                android:textAppearance="?android:textAppearanceMedium"
+
+                android:fontFamily="serif-monospace"
+                android:textSize="50sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="#ff00bf"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/billgates"
+                android:layout_gravity="left"
+                />
+
+            <TextView
+                android:id="@+id/bill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Bill Gates"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="50sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="#ff3333"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:src="@drawable/apjabdulkalam"
+                />
+            <TextView
+                android:id="@+id/apj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apj Abdul Kalam"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:textSize="50sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="#009900"
+            >
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/motherteresa"
+                android:layout_gravity="left"
+                />
+            <TextView
+                android:id="@+id/mother"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mother Teresa"
+                android:textAppearance="?android:textAppearanceMedium"
+                 android:textColor="@color/white"
+                android:fontFamily="serif-monospace"
+                android:textSize="50sp"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

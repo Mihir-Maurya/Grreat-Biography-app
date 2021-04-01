@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.greatbio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GreatBio">
+        <activity android:name=".mother"
+            android:label="Mother Teresa"></activity>
+        <activity android:name=".apj"
+            android:label="Apj Abdul Kalam"/>
+        <activity android:name=".bill"
+
+            android:label="Bill gates"/>
+        <activity android:name=".swami"
+            android:label="Swami Vivekanand"/>
+        <activity android:name=".Ratanji"
+            android:label="Ratan Tata"/>
+        <activity android:name=".Anna"
+            android:label="Anna Hazare"/>
+        <activity android:name=".Nelson"
+            android:label="Nelson Mandela"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
